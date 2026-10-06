@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+W6 Sample 03 (다른 버전): 이미지 변경 버전
+이 코드는 아늑한 카페 이미지(picture_02.png)를 표시합니다.
+사용법: 전체 복사 → 새 메모장 → assets 폴더 옆에 index.html로 저장.
+-->
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozy Cafe View</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    button, select {
+      font-size: 18px;
+      padding: 10px 14px;
+      margin-top: 10px;
+      max-width: 100%;
+    }
+    button { cursor: pointer; }
+    img { 
+      display: block; 
+      width: 100%; 
+      height: auto; 
+      border-radius: 12px; 
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    figure { margin: 16px 0; }
+    figcaption {
+      margin-top: 8px;
+      font-weight: bold;
+      color: #333;
+    }
+    audio { width: 100%; margin-top: 12px; }
+    button:focus-visible { outline: 3px solid #1463ab; outline-offset: 4px; }
+    .note { color: #465363; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <h1>Show a Cafe Image</h1>
+  <figure>
+    <!-- picture_02.png 이미지를 사용하며, 설명(alt, figcaption)을 카페 풍경으로 변경했습니다. -->
+    <img src="assets/images/picture_02.png" alt="A cozy street cafe with red and white striped awning, outdoor table and chairs near the water.">
+    <figcaption>A cozy street cafe.</figcaption>
+  </figure>
+</body>
+</html>
